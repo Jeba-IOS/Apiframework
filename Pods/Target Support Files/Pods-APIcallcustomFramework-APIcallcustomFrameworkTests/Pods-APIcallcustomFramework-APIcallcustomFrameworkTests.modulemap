@@ -1,0 +1,6 @@
+framework module Pods_APIcallcustomFramework_APIcallcustomFrameworkTests {
+  umbrella header "Pods-APIcallcustomFramework-APIcallcustomFrameworkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
