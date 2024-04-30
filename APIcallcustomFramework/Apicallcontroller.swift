@@ -305,13 +305,13 @@ extension Dictionary where Dictionary == JSON {
     var isSuccess : Bool{
         return status_code != 0
     }
-    init?(_ data : Data){
-          if let json = try? JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]{
-              self = json
-          }else{
-              return nil
-          }
-      }
+//    init?(_ data : Data){
+//          if let json = try? JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]{
+//              self = json
+//          }else{
+//              return nil
+//          }
+//      }
     var status_message : String{
         
         let statusMessage = self.string("status_message")
